@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         EVO Mobile Plus
+// @name         EVO Mobile plus
 // @namespace    https://unibo.it/
-// @version      1.2
+// @version      1.3
 // @description  Suite completa per EVO: layout responsive, bottoni rapidi, font ottimizzati per mobile
 // @author       Stefano
 // @match        https://personale-unibo.hrgpi.it/*
