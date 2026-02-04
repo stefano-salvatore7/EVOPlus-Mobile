@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          Evo Mobile Plus
 // @namespace     https://unibo.it/
-// @version       3.0
+// @version       0.1
 // @description   Suite completa per il portale presenze Unibo (Evo). Include calcolo uscita, layout responsive, e bottoni rapidi.
 // @author        Stefano
 // @match         https://personale-unibo.hrgpi.it/*
