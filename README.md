@@ -1,182 +1,120 @@
-# EVO Mobile Plus - Complete Suite
+# EVO Mobile Plus - Suite Completa per Mobile
 
-Questo script Tampermonkey è la **suite completa** per il sistema di gestione delle presenze EVO (usato su `https://personale-unibo.hrgpi.it/`). Unifica in un unico script tutte le funzionalità necessarie per un'esperienza mobile ottimale, rendendo responsive tutte le pagine principali e aggiungendo bottoni rapidi di accesso.
+**La soluzione definitiva per usare EVO comodamente da smartphone** 📱
 
-**(Versione Script: 1.3)**
+EVO Mobile Plus trasforma il portale delle presenze di UniBo in un'app mobile perfettamente ottimizzata, con layout responsive, font leggibili e bottoni di accesso rapido.
 
-## 📱 Cosa Fa Questo Script
+*Versione 1.3*
 
-**EVO Mobile Plus** combina 6 funzionalità essenziali in un unico script facile da gestire:
+---
 
-### 1️⃣ **Layout Responsive HOME/Dashboard**
-- Trasforma il layout da 6 colonne a **1 colonna** su mobile
-- Sposta le card "Saldo Ferie" e "Richieste pendenti" **sotto** il contenuto principale
-- **Font enormi** (raddoppiati rispetto al desktop) per leggibilità ottimale
-- Ottimizzazione completa di tutti gli elementi: titoli (2.8rem), testo (2.2rem), tabelle (2rem), badge (1.8rem), icone (3rem)
+## 📋 Indice
 
-### 2️⃣ **Bottoni Rapidi nella HOME**
-- **Bottone TeleLavoro**: accesso rapido al Marcatempo Virtuale direttamente dalla home
-- **Bottone Manuale**: accesso rapido alle Timbrature Mancanti
-- Su mobile mostrano **solo le icone** per risparmiare spazio
-- Su desktop mostrano **icona + testo** completo
+- [✨ Cosa Fa](#-cosa-fa)
+- [📲 Installazione Rapida](#-installazione-rapida)
+  - [Su Smartphone Android](#su-smartphone-android)
+  - [Su PC (Opzionale)](#su-pc-opzionale)
+- [🎮 Come Si Usa](#-come-si-usa)
+- [⚠️ Importante: Disinstalla Script Vecchi](#️-importante-disinstalla-script-vecchi)
+- [🔄 Aggiornamenti](#-aggiornamenti)
+- [💡 Funzionalità Dettagliate](#-funzionalità-dettagliate)
+- [🤝 Supporto e Contributi](#-supporto-e-contributi)
 
-### 3️⃣ **Marcatempo Virtuale Responsive**
-- Form ottimizzato per mobile con larghezza 95%
-- Radio buttons enormi (3rem) per Entrata/Uscita
-- Select e input ingranditi (1.7-2rem)
-- Bottoni grandi e facili da premere
-- Layout verticale ottimizzato
+---
 
-### 4️⃣ **Timbrature Mancanti Responsive**
-- Form responsive a larghezza 100%
-- Radio buttons disposti 2 per riga
-- Input date/time ingranditi (1.8rem)
-- Tabella "Contesto del giorno" ottimizzata
-- Motivo e select completamente leggibili
+## ✨ Cosa Fa
 
-### 5️⃣ **Gestione Intelligente delle Pagine**
-- Rileva automaticamente la pagina attiva
-- Carica solo i moduli necessari per quella specifica pagina
-- Nessun conflitto tra i diversi moduli
-- Performance ottimale
+**Un unico script che fa tutto:**
 
-### 6️⃣ **Compatibilità Calculator**
-- Completamente compatibile con "EVO Exit Time Calculator (HOME)"
-- Ottimizza tutti gli elementi del calculator: fascia oraria (2rem), switch (2rem), box uscita (2rem)
-- Mantiene border-radius arrotondati su tutti gli elementi
+🏠 **Home/Dashboard Ottimizzata**
+- Layout a colonna singola su mobile
+- Font enormi per leggibilità perfetta
+- Sidebar spostata sotto il contenuto principale
 
-## 🎯 Vantaggi Rispetto agli Script Separati
+🚀 **Bottoni Rapidi**
+- Accesso immediato al Marcatempo Virtuale (TeleLavoro)
+- Accesso immediato alle Timbrature Mancanti
+- Su mobile mostrano solo le icone per risparmiare spazio
 
-✅ **Un solo script da installare** invece di 6 diversi  
-✅ **Manutenzione semplificata** - un solo aggiornamento per tutto  
-✅ **Nessun conflitto** tra script multipli  
-✅ **Log unificati** con prefisso `[EVO Mobile Plus]`  
-✅ **Gestione intelligente** delle risorse  
-✅ **Performance migliorate** - caricamento ottimizzato  
+📝 **Form Ottimizzati**
+- Marcatempo Virtuale completamente responsive
+- Timbrature Mancanti con layout mobile-friendly
+- Tutti i campi ingranditi e facili da compilare
 
-## 📦 Funzionalità Dettagliate
+✅ **Tutto Automatico**
+- Si attiva da solo sulle pagine giuste
+- Nessuna configurazione richiesta
+- Compatibile con altri script EVO
 
-### Responsive HOME/Dashboard
+---
 
-**Font Enormi per Leggibilità Mobile:**
-- Titoli H4: **2.8rem** (es: "Timbrature di giornata", "Anomalie da sanare")
-- Titolo benvenuto H2: **1.75rem** (proporzioni equilibrate)
-- Testo nelle card: **2.2rem**
-- Tabelle: **2rem**
-- Badge: **1.8rem**
-- Icone Material: **3rem**
-- Liste: **2rem**
-- Progress circle: **3rem** con dimensione **200px**
-- Bottoni: **2rem**
-- Link: **2rem**
+## 📲 Installazione Rapida
 
-**Layout Ottimizzato:**
-- Griglia principale passa a **1 colonna**
-- Card benvenuto a larghezza piena
-- Utils (sidebar) spostata sotto il contenuto
-- Progress circle in layout verticale
-- Padding aumentato nelle card (2rem)
-- Gap ottimizzato tra elementi
+### Su Smartphone Android
 
-### Bottoni Rapidi HOME
+#### 1. Installa Firefox per Android
 
-**Bottone TeleLavoro:**
-- Icona: `add` + `home_work`
-- Testo desktop: "TeleLavoro"
-- Mobile: solo icone
-- Azione: apre Marcatempo Virtuale
+- Apri il **Google Play Store**
+- Cerca **"Firefox Browser"**
+- Installa l'app di Mozilla Firefox
 
-**Bottone Manuale:**
-- Icona: `add` + `touch_app`
-- Testo desktop: "Manuale"
-- Mobile: solo icone
-- Azione: apre Timbrature Mancanti
-
-**Posizionamento Intelligente:**
-- Entrambi i bottoni appaiono accanto al titolo "Timbrature di giornata"
-- Se TeleLavoro non è presente, Manuale prende il suo posto
-- Tooltip informativi su hover
-
-### Marcatempo Virtuale Responsive
-
-**Elementi Ottimizzati:**
-- Container form: **95% larghezza**
-- Testo attenzione: **1.8rem**
-- Label descrittive: **1.9rem** (grassetto)
-- Radio Entrata/Uscita: **3rem** (affiancati)
-- Label radio: **2.2rem**
-- Select causale: **1.7rem**
-- Orario (#hour): **2rem** (grassetto)
-- Bottoni: **1.9rem** con padding **1rem 1.5rem**
-- Icone bottoni: **2.2rem**
-
-**Layout Mobile:**
-- Tabella form diventa verticale
-- Ogni campo su riga separata
-- Border bottom tra le righe
-- Radio buttons su stessa riga (non a capo)
-- Bottoni in colonna con gap 1rem
-
-### Timbrature Mancanti Responsive
-
-**Elementi Ottimizzati:**
-- Container principale: **100% larghezza**
-- Card: **100% larghezza**
-- Testo generale: **1.7rem**
-- Label descrittive: **1.9rem** (grassetto)
-- Radio buttons: **2.5rem** (2 per riga)
-- Label radio: **2rem**
-- Input date/time: **1.8rem**
-- Select: **1.7rem**
-- Input text (Motivo): **1.7rem**
-- Bottoni: **1.9rem** a larghezza piena
-- Tabella contesto: **1.6rem**
-
-**Layout Mobile:**
-- Radio buttons "Verso" disposti 2 per riga (50% ciascuno)
-- Input date e time a larghezza 100%
-- Icona calendario: **2.5rem**
-- Bottoni verticali a larghezza piena
-- Sezione "Contesto del giorno" ottimizzata
-
-## 📲 Installazione su Smartphone Android
-
-Per utilizzare questo script su smartphone, è necessario installare Firefox per Android e Tampermonkey. Ecco la procedura completa:
-
-### 1. Installa Firefox per Android
-
-Se non l'hai già installato:
-
-* Apri il **Google Play Store**
-* Cerca **"Firefox Browser"**
-* Installa l'app ufficiale di Mozilla Firefox
-
-### 2. Abilita le Estensioni su Firefox Android
-
-Firefox per Android supporta le estensioni, ma devi prima abilitarle:
+#### 2. Installa Tampermonkey
 
 1. Apri **Firefox** sul tuo smartphone
-2. Tocca il menu (tre puntini in basso a destra)
-3. Vai in **"Impostazioni"**
-4. Scorri fino in fondo e tocca **"Informazioni su Firefox"**
-5. **Tocca ripetutamente (5 volte) sul logo di Firefox** che appare nella pagina
-6. Vedrai comparire un messaggio che conferma l'attivazione della modalità debug
-7. Torna indietro alle Impostazioni
-8. Ora vedrai apparire una nuova voce **"Componenti aggiuntivi"** nel menu
-9. Tocca **"Componenti aggiuntivi"**
-10. Tocca **"Gestione componenti aggiuntivi"**
+2. Tocca il menu (☰ tre linee in basso a destra)
+3. Vai in **"Componenti aggiuntivi"**
+4. Cerca **"Tampermonkey"**
+5. Tocca **"+ Aggiungi"** per installarlo
 
-### 3. Installa Tampermonkey
+> **Nota:** Se non vedi "Componenti aggiuntivi" nel menu, devi prima abilitare la modalità debug:
+> - Vai in Impostazioni → Informazioni su Firefox
+> - Tocca 5 volte sul logo di Firefox
+> - Torna indietro e vedrai "Componenti aggiuntivi" nel menu
 
-1. Nella sezione "Gestione componenti aggiuntivi" che hai appena aperto
-2. Cerca **"Tampermonkey"** nella barra di ricerca
-3. Tocca su **Tampermonkey** nei risultati
-4. Tocca **"+ Aggiungi"** per installarlo
-5. Conferma l'installazione toccando **"Aggiungi"** nel popup
+#### 3. Installa lo Script
 
-### 4. **IMPORTANTE: DISINSTALLA GLI SCRIPT VECCHI**
+[**🚀 Clicca qui per installare EVO Mobile Plus**](https://github.com/stefano-salvatore7/EVOPlus-Mobile/raw/refs/heads/main/evo-plus-mobile.user.js)
 
-Se hai installato uno o più dei seguenti script separati, **DEVI disinstallarli** prima di installare EVO Mobile Plus:
+- Si aprirà Tampermonkey con il codice dello script
+- Tocca **"Installa"**
+- Fatto! Lo script è attivo
+
+### Su PC (Opzionale)
+
+1. Installa **[Tampermonkey](https://www.tampermonkey.net/)** per il tuo browser:
+   - [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Firefox](https://addons.mozilla.org/it/firefox/addon/tampermonkey/)
+   - [Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
+
+2. [**Clicca qui per installare lo script**](https://github.com/stefano-salvatore7/EVOPlus-Mobile/raw/refs/heads/main/evo-plus-mobile.user.js)
+
+---
+
+## 🎮 Come Si Usa
+
+### Prima Volta
+1. Apri Firefox sul tuo smartphone
+2. Vai su `https://personale-unibo.hrgpi.it/`
+3. Effettua il login come sempre
+4. **Tutto è già ottimizzato!** 🎉
+
+### Nella Dashboard
+- **Layout mobile perfetto**: tutto in una colonna, font grandi
+- **Due bottoni rapidi** accanto a "Timbrature di giornata":
+  - 🏠 **TeleLavoro**: apre il Marcatempo Virtuale
+  - ✋ **Manuale**: apre le Timbrature Mancanti
+
+### Nei Form
+- Tutti i campi sono ingranditi e facili da compilare
+- Radio button grandi e cliccabili
+- Select e input ottimizzati per touch screen
+- Bottoni grandi per evitare errori
+
+---
+
+## ⚠️ Importante: Disinstalla Script Vecchi
+
+Se hai installato uno di questi script separati, **DEVI rimuoverli**:
 
 - ❌ EVO - Responsive Marcatempo Virtuale
 - ❌ EVO - Bottone Marcatempo Virtuale (HOME)
@@ -185,192 +123,136 @@ Se hai installato uno o più dei seguenti script separati, **DEVI disinstallarli
 - ❌ EVO - Responsive Timbratura Manuale
 
 **Come disinstallare:**
-1. Tocca l'icona di Tampermonkey nella barra di Firefox
-2. Seleziona "Dashboard"
-3. Trova gli script vecchi nell'elenco
-4. Tocca l'icona del cestino accanto a ciascuno
-5. Conferma la disinstallazione
+1. Tocca l'icona di Tampermonkey in Firefox
+2. Vai nella "Dashboard"
+3. Trova gli script vecchi
+4. Tocca l'icona del cestino 🗑️
+5. Conferma
 
-### 5. Installazione di EVO Mobile Plus
+Questo nuovo script li sostituisce tutti! 🎉
 
-Ora puoi installare lo script unificato:
+---
 
-[**🚀 Clicca qui per installare EVO Mobile Plus**](https://github.com/stefano-salvatore7/EVOPlus-Mobile/raw/refs/heads/main/evo-plus-mobile.user.js)
+## 🔄 Aggiornamenti
 
-* Dopo aver cliccato sul link dal tuo smartphone Firefox, Tampermonkey ti mostrerà il codice dello script
-* Tocca **"Installa"** per confermare
-* Lo script si attiverà automaticamente
+**Aggiornamenti automatici attivi!** ✅
 
-### 6. Verifica Aggiornamenti Automatici
+Tampermonkey controlla automaticamente gli aggiornamenti dal repository GitHub.
 
-Tampermonkey controllerà automaticamente gli aggiornamenti:
+**Per verificare manualmente:**
+1. Apri Tampermonkey → Dashboard
+2. Trova "EVO Mobile Plus"
+3. Verifica che "Controlla aggiornamenti" sia attivo ✅
 
-* Tocca l'icona di Tampermonkey nella barra degli strumenti
-* Seleziona **"Dashboard"**
-* Trova "EVO Mobile Plus - Complete Suite" nell'elenco
-* Verifica che la casella "Controlla aggiornamenti" sia spuntata
-* Tampermonkey controllerà periodicamente il repository per nuove versioni
+---
 
-## 💻 Installazione su PC (Opzionale)
+## 💡 Funzionalità Dettagliate
 
-Se vuoi testare lo script anche su PC:
+### Home/Dashboard Responsive
 
-### 1. Installare l'estensione [Tampermonkey](https://www.tampermonkey.net/)
+**Layout Ottimizzato:**
+- Griglia da 6 colonne → 1 colonna su mobile
+- Card benvenuto a larghezza piena
+- Sidebar "Saldo Ferie" e "Richieste" spostata sotto
+- Progress circle in layout verticale
 
-* **[Tampermonkey per Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)**
-* **[Tampermonkey per Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)**
-* **[Tampermonkey per Firefox](https://addons.mozilla.org/it/firefox/addon/tampermonkey/)**
+**Font Enormi per Leggibilità:**
+- Titoli: 2.8rem
+- Testo generale: 2.2rem
+- Tabelle: 2rem
+- Badge: 1.8rem
+- Icone: 3rem
+- Bottoni: 2rem
 
-### 2. Installazione dello Script
+**Compatibile con:**
+- ✅ [EVO Exit Time Calculator](https://github.com/stefano-salvatore7/evo-exit-time-calc-home)
+- ✅ Altri script EVO che non modificano gli stessi elementi
 
-[**🚀 Clicca qui per installare EVO Mobile Plus**](https://github.com/stefano-salvatore7/EVOPlus-Mobile/raw/refs/heads/main/evo-plus-mobile.user.js)
+### Bottoni Rapidi
 
-## 🎮 Utilizzo
+**TeleLavoro (Marcatempo Virtuale):**
+- Icone: ➕ 🏠
+- Desktop: mostra "TeleLavoro"
+- Mobile: solo icone
 
-Una volta installato, lo script si attiva automaticamente quando visiti EVO:
+**Manuale (Timbrature Mancanti):**
+- Icone: ➕ ✋
+- Desktop: mostra "Manuale"
+- Mobile: solo icone
 
-### Nella HOME/Dashboard
-1. Apri **Firefox** sul tuo smartphone
-2. Naviga alla **Dashboard** di EVO (`https://personale-unibo.hrgpi.it/`)
-3. Effettua il login
-4. Vedrai:
-   - ✅ Layout a colonna singola
-   - ✅ Font enormi e leggibili
-   - ✅ Due bottoni rapidi accanto a "Timbrature di giornata"
-   - ✅ Sidebar "Saldo Ferie" e "Richieste pendenti" sotto il contenuto
+**Posizionamento intelligente:**
+- Compaiono accanto al titolo "Timbrature di giornata"
+- Tooltip informativi su hover (desktop)
 
-### Nel Marcatempo Virtuale
-1. Tocca il bottone **TeleLavoro** (icone `add` + `home_work`)
-2. Si apre la pagina Marcatempo Virtuale
-3. Vedrai:
-   - ✅ Form ottimizzato a 95% larghezza
-   - ✅ Radio buttons enormi per Entrata/Uscita
-   - ✅ Select e input ben leggibili
-   - ✅ Bottoni grandi e facili da premere
+### Form Responsive
 
-### Nelle Timbrature Mancanti
-1. Tocca il bottone **Manuale** (icone `add` + `touch_app`)
-2. Si apre la pagina Timbrature Mancanti
-3. Vedrai:
-   - ✅ Form a larghezza piena
-   - ✅ Radio buttons 2 per riga
-   - ✅ Input date/time grandi
-   - ✅ Tabella "Contesto del giorno" leggibile
+**Marcatempo Virtuale:**
+- Form ottimizzato 95% larghezza
+- Radio buttons enormi (3rem)
+- Label e testo ben leggibili
+- Layout verticale su mobile
 
-## 🔍 Rilevamento Dispositivi
+**Timbrature Mancanti:**
+- Form a larghezza piena
+- Radio buttons disposti 2 per riga
+- Input date/time ingranditi
+- Tabella "Contesto del giorno" ottimizzata
 
-Lo script utilizza media query intelligenti per identificare i dispositivi mobile:
+### Dispositivi Supportati
 
-```css
-/* Smartphone in portrait */
-@media (max-width: 1024px) and (orientation: portrait)
+✅ **Funziona perfettamente su:**
+- Samsung Galaxy (tutti i modelli recenti)
+- iPhone (tutti i modelli)
+- Xiaomi, Huawei, OnePlus
+- Qualsiasi smartphone Android/iOS con Firefox
+- Tablet in modalità portrait
 
-/* Tablet e smartphone landscape */
-@media (max-width: 768px)
+---
 
-/* Dispositivi touch */
-@media (hover: none) and (pointer: coarse)
+## 🤝 Supporto e Contributi
 
-/* Schermi molto piccoli */
-@media (max-width: 480px) and (orientation: portrait)
-```
+### Hai Problemi?
 
-**Funziona perfettamente su:**
-- ✅ Samsung Galaxy S24 Ultra
-- ✅ Samsung Galaxy S25
-- ✅ iPhone (tutti i modelli recenti)
-- ✅ Xiaomi, Huawei, OnePlus
-- ✅ Tablet in modalità portrait
-- ✅ Qualsiasi smartphone Android/iOS con Firefox
+1. Verifica di aver **disinstallato gli script vecchi**
+2. Controlla che Tampermonkey sia **attivo** (icona colorata)
+3. Apri una **[Issue su GitHub](https://github.com/stefano-salvatore7/EVOPlus-Mobile/issues)**
 
-## 🔧 Log e Debug
+### Vuoi Contribuire?
 
-Lo script produce log chiari nella console del browser:
+- 🐛 Segnala bug aprendo una Issue
+- 💡 Proponi miglioramenti
+- 🔧 Invia Pull Request con correzioni
 
-```
-[EVO Mobile Plus] Script caricato e in esecuzione
-[EVO Mobile Plus] CSS responsive sidebar iniettato
-[EVO Mobile Plus] CSS bottoni mobile iniettato
-[EVO Mobile Plus] Bottone TeleLavoro aggiunto
-[EVO Mobile Plus] Bottone Timb. Mancanti aggiunto accanto a TeleLavoro
-[EVO Mobile Plus] Inizializzato su Dashboard/Home
-```
+### Feedback
 
-Per vedere i log:
-1. Apri Firefox Developer Tools (Menu → Strumenti → Strumenti di sviluppo web)
-2. Vai alla tab "Console"
-3. Cerca i messaggi con prefisso `[EVO Mobile Plus]`
+Il tuo feedback è prezioso! Condividi la tua esperienza aprendo una Issue o lasciando una star ⭐ su GitHub.
 
-## 🎨 Design e Stile
-
-- ✅ Mantiene lo stile originale della pagina EVO
-- ✅ Colori e classi CSS native preservati
-- ✅ Zero conflitti con altri script
-- ✅ Border-radius arrotondati mantenuti
-- ✅ Icone Material Symbols perfettamente integrate
-- ✅ Tooltip Bootstrap funzionanti
-
-## ⚡ Performance
-
-- ✅ Script leggero (solo CSS injection)
-- ✅ Caricamento condizionale per pagina
-- ✅ Nessuna manipolazione DOM pesante
-- ✅ Nessun impatto sulle prestazioni del sito
-- ✅ Timeout di sicurezza (15 secondi max)
-- ✅ Check ogni 500ms per caricamento elementi
-
-## 🔄 Compatibilità con Altri Script
-
-**EVO Mobile Plus è completamente compatibile con:**
-
-- ✅ [EVO Exit Time Calculator (HOME)](https://github.com/stefano-salvatore7/evo-exit-time-calc-home) - v2.1 o superiore
-- ✅ Qualsiasi altro script EVO che non modifichi gli stessi elementi
-
-**IMPORTANTE:** Non utilizzare insieme agli script vecchi separati che sono stati unificati in questo.
+---
 
 ## 📝 Changelog
 
-### Versione 1.3 (Febbraio 2026)
-- 🎉 **Release iniziale di EVO Mobile Plus**
-- ✅ Unificazione di 6 script separati in uno solo
-- ✅ Layout responsive HOME/Dashboard
-- ✅ Bottoni rapidi TeleLavoro e Manuale
-- ✅ Marcatempo Virtuale responsive
-- ✅ Timbrature Mancanti responsive
-- ✅ Gestione intelligente delle pagine
-- ✅ Log unificati con prefisso `[EVO Mobile Plus]`
-- ✅ CSS con ID univoci per evitare duplicazioni
-- ✅ Compatibilità completa con calculator
-
-### Script Precedenti Unificati
-- Responsive Sidebar HOME v2.3
-- Bottone Marcatempo Virtuale v1.4
-- Bottone Timbrature Mancanti v1.1
-- Responsive Marcatempo v1.2
-- Responsive Timbrature Mancanti v1.2
-
-## 🤝 Contributi
-
-Se desideri contribuire a migliorare questo script:
-
-1. Apri una **Issue** sul [repository GitHub](https://github.com/stefano-salvatore7/EVOPlus-Mobile)
-2. Proponi una **Pull Request** con le tue modifiche
-3. Condividi feedback e suggerimenti
-
-## 📄 Licenza
-
-Questo script è fornito "così com'è" senza garanzie di alcun tipo. Utilizzalo a tuo rischio.
-
-## 🙏 Ringraziamenti
-
-Grazie a tutti gli utenti che hanno testato e fornito feedback sulle versioni precedenti degli script separati, permettendo la creazione di questa suite completa e ottimizzata.
+### v1.3 (Febbraio 2026) - Release Iniziale
+- 🎉 Unificazione di 6 script separati in uno solo
+- ✅ Layout responsive completo per tutte le pagine
+- ✅ Bottoni rapidi nella home
+- ✅ Form ottimizzati per mobile
+- ✅ Compatibilità con Exit Time Calculator
 
 ---
 
-**Nota Importante:** Questo script è progettato esclusivamente per migliorare l'esperienza utente mobile su EVO. Non modifica, intercetta o memorizza alcun dato sensibile. Tutto il codice è open source e verificabile.
+## 📄 Note Legali
 
-**Supporto:** Per domande, problemi o suggerimenti, apri una Issue su GitHub.
+- Questo script migliora solo l'esperienza utente mobile
+- Non modifica, intercetta o memorizza dati sensibili
+- Codice 100% open source e verificabile
+- Fornito "così com'è" senza garanzie
 
 ---
 
-**Versione:** 1.3 | **Data:** Febbraio 2026 | **Autore:** Stefano | **Repository:** [EVOPlus-Mobile](https://github.com/stefano-salvatore7/EVOPlus-Mobile)
+**Repository:** [EVOPlus-Mobile](https://github.com/stefano-salvatore7/EVOPlus-Mobile)  
+**Autore:** Stefano  
+**Licenza:** Open Source
+
+---
+
+⭐ **Se ti è utile, lascia una stella su GitHub!**
